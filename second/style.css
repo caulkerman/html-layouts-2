@@ -1,0 +1,121 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 10%;
+	/*height: 100%;*/
+	background-color: #CCCCCC;
+	min-width: 400px;
+	border: #fff solid 1px;
+}
+
+.clickbox {
+	width: 90%;
+	margin: 5% auto;
+	height: 40%;
+	background-color: #fff;
+}
+
+.text1 {
+	width: 96%;
+	margin: 2% 2% 2% 2%;
+	/*font-size: 2.2vw;*/
+	
+	
+}
+
+/*@media(max-width: 400px) {
+	.clickbox {
+		height: 50%;
+	}
+}*/
+
+.button-div {
+	position: relative;
+	height: 30%;
+	width: 96%;
+	
+}
+
+.button1 {
+	/*top: 65%;*/
+	/*left: 2%;*/
+	height: 50px;
+	width: 110px;
+	margin: 5%;
+	background-color: red;
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+	font-weight: 2em;
+	font-family: sans-serif;
+
+}
+
+
+.button2 {
+	position: absolute;
+	height: 50px;
+	width: 110px;
+	background-color: blue;
+	top: 0%;
+	left: 27%;
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+	font-weight: 2em;
+	font-family: sans-serif;
+}
+/*.margin {
+	margin: 10px;   ----- all four sides the same
+	margin: 10%;
+	margin: 10px 20px 30px 40px;   ----- top right bottom left
+	margin: 20px 60px;			   ----- top/bottm right/left
+	margin-top: ;
+	margin-left:;
+	margin-right: ;
+	margin-bottom:;
+}*/
+.imagebox-container {
+	width: 90%;
+	margin: auto;
+	padding-top: 5%;
+	height: 60%;
+	background-color: #fff;
+
+}
+
+.image {
+	width: 90%;
+	height: 270px;
+	margin: auto;
+
+	background-color: #505050;
+}
+
+.text2 {
+	width: 96%;
+	margin: 2% 2% 2% 2%;
+}
+
+.empty-space {
+	width: 50%;
+	margin: auto;
+	height:30px;
+	background-color: #CCCCCC;
+}
+
+.footer {
+	
+	width: 100%;
+	margin: auto;
+	height:70px;
+	background-color: #505050;
+}

@@ -1,0 +1,111 @@
+html, body {
+	margin: auto;
+	background-color: #EBF5FF;
+	
+}
+.container {
+	width: 830px;
+	height: 1000px;
+	margin: 0 auto;
+	padding: 10px;
+	position: relative;
+	background-color: white;
+
+}
+
+.first {
+	position: absolute;
+
+}
+
+.firstleft {
+	width: 260px;
+	height: 150px;
+	background-color: red;
+	position: absolute;
+	left: 5px;
+
+
+
+}
+
+.firstcenter {
+	margin: right left 10px;
+	width: 260px;
+	height: 150px;
+	background-color: blue;
+	position: absolute;
+	left: 285px;
+
+
+}
+
+.firstright {
+	width: 260px;
+	height: 150px;
+	background-color: black;
+	position: absolute;
+	left: 565px;
+
+
+}
+
+.secondtext {
+	position: absolute;
+	top: 155px;
+	width: 818px;
+	height: 350px;
+	left: 5px;
+	background-color: #fff;
+}
+
+.third {
+	position: absolute;
+	height: 250px;
+	width: 820px;
+	top:530px;
+	left: 15px;
+	background-color: blue;
+}
+
+.thirdinset {
+	height: 250px;
+	width: 200px;
+	background-color: red;
+
+}
+
+.fourth {
+	position: absolute;
+	top: 800px;
+	height: 200px;
+	width: 820px;
+	background-color: blue;
+	left: 15px;
+
+}
+
+.fourthleft {
+	position: absolute;
+	background-color: red;
+	height: 200px;
+	width: 50px;
+	left: 570px;
+}
+
+.fourthcenter {
+	position: absolute;
+	background-color: black;
+	height: 200px;
+	width: 150px;
+	left: 620px;
+}
+
+.fourthright {
+	position: absolute;
+	background-color: red;
+	height: 200px;
+	width: 50px;
+	left: 770px;
+}
+
